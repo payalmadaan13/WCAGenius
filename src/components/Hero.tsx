@@ -8,7 +8,7 @@ export default function Hero() {
                     </h1>
                     <p className="mt-6 text-lg text-blue-100 max-w-xl">
                         Instantly audit your website for WCAG 2.1 compliance.
-                        Fast, accurate, and developer-friendly.
+                        Fast, accurate, and user-friendly.
                     </p>
 
                     <div className="mt-8">
