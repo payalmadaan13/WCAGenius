@@ -1,7 +1,7 @@
-import cheerio from "cheerio";
+import { load } from "cheerio";
 
 export function extractMetadata(html: string) {
-  const $ = cheerio.load(html);
+  const $ = load(html);
 
   return {
     title: $("title").text(),
